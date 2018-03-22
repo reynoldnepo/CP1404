@@ -6,9 +6,9 @@ Broken program to determine score status
 # TODO: Fix this!
 def main():
     score = float(input("Enter score: "))
-    score_rating()
+    score_rating(score)
 
-def score_rating():
+def score_rating(score):
     if score < 0:
         print("Invalid score")
     elif score > 100:
