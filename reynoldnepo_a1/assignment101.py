@@ -57,7 +57,7 @@ def add_movie():
     movie_year = input("Year of Movie:")
     movie_genre = input ("Genre of Movie:")
 
-    print("{},{},{},n".format(movie_title,movie_year,movie_genre,file = movies_file))
+    movies_file.write("{},{},{},n".format(movie_title,movie_year,movie_genre))
     #if __name__ == '__main__'
 
 #main()
