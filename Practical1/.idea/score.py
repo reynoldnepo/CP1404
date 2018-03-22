@@ -9,9 +9,7 @@ def main():
     score_rating(score)
 
 def score_rating(score):
-    if score < 0:
-        print("Invalid score")
-    elif score > 100:
+    if score < 0 or score > 100:
         print("Invalid score")
     elif score > 90:
         print("Excellent")

@@ -20,7 +20,7 @@ Q - Quit"""
         choice = input(">>> ").upper()
     print("Thank you.")
 
-def convert_to_Farenheit():
+def convert_to_farenheit():
     celsius = float(input("Celsius: "))
     fahrenheit = celsius * 9.0 / 5 + 32
     print("Result: {:.2f} F".format(fahrenheit))
